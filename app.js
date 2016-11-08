@@ -1,3 +1,3 @@
-const lotto = require('lotto');
+const lotto = require('./lotto');
 
 lotto.startCron();
