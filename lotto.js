@@ -7,7 +7,7 @@ const {fetchEuroJackNumbers,
   fetchLottoNumbers,
   fetchResults,
   EURO,
-  LOTTO } = require('./fetchNumbers');
+  LOTTO } = require('./framework/lotto/fetchNumbers');
 
 var lastFriday = moment().day(moment().day() >= 5 ? 5 : -2);
 var lastSaturday = moment().day(moment().day() >= 6 ? 6 : -1);
